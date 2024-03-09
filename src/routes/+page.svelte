@@ -1,6 +1,6 @@
 <div class="wrapper">
 <h1>enmo.ai</h1>
-<h4>Moving energy smarter</h4>
+<h4>Smarter Energy Movements</h4>
 <br>
 <h4>Team:</h4>
 <p>CEO, Johan Vu, <a href="mailto:johan@enmo.ai"> johan@enmo.ai </a> </p>
