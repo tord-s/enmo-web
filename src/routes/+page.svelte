@@ -27,7 +27,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  margin-top: 20vh;
 }
 
 p {
@@ -45,4 +45,13 @@ h4 {
 a {
   color: #aaa;
 }
+
+@media (max-width: 800px) {
+  .wrapper {
+    font-size: 13px;
+    line-height: 10px;
+  }
+}
+
+
 </style>
