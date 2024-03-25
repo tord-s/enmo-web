@@ -8,8 +8,8 @@
 <p>CFO, Tord Søfteland, <a href="mailto:tord@enmo.ai"> tord@enmo.ai </a> </p>
 <p>Fullstack Developer, Endre Sørnes, <a href="mailto:endre@enmo.ai"> endre@enmo.ai </a> </p>
 <p>Model Developer, Torjei Helset, <a href="mailto:torjei@enmo.ai"> torjei@enmo.ai </a> </p>
-<p>AI/Fullstack Developer, Simon Vetter, <a href="mailto:torjei@enmo.ai"> simon@enmo.ai </a> </p>
-<p>AI/Fullstack Developer, Farhad Ismayilov, <a href="mailto:farhad@enmo.ai"> farhad@enmo.ai </a> </p>
+<p>AI / Fullstack Developer, Simon Vetter, <a href="mailto:torjei@enmo.ai"> simon@enmo.ai </a> </p>
+<p>AI / Fullstack Developer, Farhad Ismayilov, <a href="mailto:farhad@enmo.ai"> farhad@enmo.ai </a> </p>
 <br>
 <h4>Partners:</h4>
 <p>Berggård Amundsen & Co, <a href="https://baelgros.no" target="_blank"> www.baelgros.no </a> </p>
@@ -27,7 +27,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20vh;
+  margin-top: 15vh;
 }
 
 p {
