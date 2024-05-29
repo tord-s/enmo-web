@@ -44,7 +44,7 @@
     </a>
   </p>
   <p>
-    Steve Völler, Associate Professor, PhD, <a
+    Steve Völler, Associate Professor, <a
       href="https://www.ntnu.no/ansatte/steve.voller"
       target="_blank"
     >
