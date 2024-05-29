@@ -5,29 +5,12 @@
   <h4>Team:</h4>
   <p>CEO, Johan Vu, <a href="mailto:johan@enmo.ai"> johan@enmo.ai </a></p>
   <p>
-    Fullstack Developer, David Lekve, <a href="mailto:david@enmo.ai">
-      david@enmo.ai
-    </a>
+    CTO, David Lekve, <a href="mailto:david@enmo.ai"> david@enmo.ai </a>
   </p>
   <p>CFO, Tord Søfteland, <a href="mailto:tord@enmo.ai"> tord@enmo.ai </a></p>
   <p>
     Fullstack Developer, Endre Sørnes, <a href="mailto:endre@enmo.ai">
       endre@enmo.ai
-    </a>
-  </p>
-  <p>
-    Model Developer, Torjei Helset, <a href="mailto:torjei@enmo.ai">
-      torjei@enmo.ai
-    </a>
-  </p>
-  <p>
-    AI / Fullstack Developer, Simon Vetter, <a href="mailto:torjei@enmo.ai">
-      simon@enmo.ai
-    </a>
-  </p>
-  <p>
-    AI / Fullstack Developer, Farhad Ismayilov, <a href="mailto:farhad@enmo.ai">
-      farhad@enmo.ai
     </a>
   </p>
   <br />
@@ -40,7 +23,15 @@
   <br />
   <h4>Mentors:</h4>
   <p>
-    Karen Byskov Lindberg, PhD, <a
+    Sebastien Gros, Head of Engineering Cybernetics, <a
+      href="https://www.ntnu.edu/employees/sebastien.gros"
+      target="_blank"
+    >
+      NTNU
+    </a>
+  </p>
+  <p>
+    Karen Lindberg, Adjunct Associate Professor, <a
       href="https://www.ntnu.no/ansatte/karen.lindberg"
       target="_blank"
     >
@@ -48,7 +39,7 @@
     </a>
   </p>
   <p>
-    Steve Völler, PhD, <a
+    Associate Professor, PhD, <a
       href="https://www.ntnu.no/ansatte/steve.voller"
       target="_blank"
     >
