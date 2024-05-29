@@ -67,6 +67,7 @@
     margin: 8px;
     color: #fff;
     text-align: center;
+    z-index: 100;
   }
 
   h4 {
@@ -83,6 +84,7 @@
     .wrapper {
       font-size: 13px;
       line-height: 10px;
+      z-index: 100;
     }
   }
 </style>

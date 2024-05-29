@@ -104,7 +104,7 @@
 
 <canvas
   bind:this={canvas}
-  style="position: fixed; top: 0; left: 0; z-index: 100;"
+  style="position: fixed; top: 0; left: 0; z-index: 10;"
 ></canvas>
 
 <style>
