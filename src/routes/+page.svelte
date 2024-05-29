@@ -1,3 +1,8 @@
+<script>
+  import Lightning from "../lib/Lightning.svelte";
+</script>
+
+<Lightning />
 <div class="wrapper">
   <h1>enmo.ai</h1>
   <h4>Energy Movement</h4>
@@ -55,6 +60,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 15vh;
+    background: transparent;
   }
 
   p {
