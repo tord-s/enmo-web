@@ -18,9 +18,7 @@
   </p>
   <p>CFO, Tord Søfteland, <a href="mailto:tord@enmo.ai"> tord@enmo.ai </a></p>
   <p>
-    Fullstack Developer, Endre Sørnes, <a href="mailto:endre@enmo.ai">
-      endre@enmo.ai
-    </a>
+    Developer, Endre Sørnes, <a href="mailto:endre@enmo.ai"> endre@enmo.ai </a>
   </p>
   <br />
   <h4>Partners:</h4>
