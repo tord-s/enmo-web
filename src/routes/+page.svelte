@@ -53,15 +53,32 @@
       NTNU
     </a>
   </p>
+  <iframe
+    class="sendgrid"
+    title="Investor Update"
+    src="https://cdn.forms-content-1.sg-form.com/93b7d24e-23d0-11ef-bcc4-a2e4c946a3db"
+  />
 </div>
 
 <style>
+  .sendgrid {
+    width: 384px;
+    height: 610px;
+    border: 1px solid #fff;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+    padding: 0;
+    z-index: 100;
+    background: transparent;
+  }
+
   .wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 15vh;
+    margin-top: 5vh;
     background: transparent;
   }
 
