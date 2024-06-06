@@ -63,7 +63,7 @@
 <style>
   .sendgrid {
     width: 384px;
-    height: 610px;
+    height: 620px;
     border: 1px solid #fff;
     margin: auto;
     margin-top: 50px;
