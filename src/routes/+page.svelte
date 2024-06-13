@@ -12,9 +12,15 @@
   <h4>Energy Movement</h4>
   <br />
   <h4>Team:</h4>
-  <p>CEO, Johan Vu, <a href="mailto:johan@enmo.ai"> johan@enmo.ai </a></p>
   <p>
-    CTO, David Lekve, <a href="mailto:david@enmo.ai"> david@enmo.ai </a>
+    Co-Founder & CEO, Johan Vu, <a href="mailto:johan@enmo.ai">
+      johan@enmo.ai
+    </a>
+  </p>
+  <p>
+    Co-Founder & CTO, David Lekve, <a href="mailto:david@enmo.ai">
+      david@enmo.ai
+    </a>
   </p>
   <p>CFO, Tord Søfteland, <a href="mailto:tord@enmo.ai"> tord@enmo.ai </a></p>
   <p>
@@ -58,6 +64,8 @@
     title="Investor Update"
     src="https://cdn.forms-content-1.sg-form.com/93b7d24e-23d0-11ef-bcc4-a2e4c946a3db"
   />
+  <br /><br /><br /><br />
+  <!-- <small>enmo AS</small> -->
 </div>
 
 <style>
