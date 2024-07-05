@@ -7,8 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- First favicon with full opacity -->
+ <!-- First favicon with full opacity -->
+ <link id="favicon" rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' width='64' height='64'><polygon points='32 2 12 36 26 36 20 62 52 22 36 22 42 2' fill='white' stroke='black' stroke-width='2' opacity='1'/></svg>">
 
     <style>
+        @keyframes flicker {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.1; }
+        }
+        
+        .flicker {
+            animation: flicker 0.3s ease-in-out infinite;
+        }
+
         html, body {
             font-family: "tiltium web", sans-serif;
             color: white;
@@ -65,6 +77,25 @@
 
 </head>
 <body>
+
+  <script>
+    function addFlickerToFavicon() {
+        const favicon = document.getElementById('favicon');
+        const favicons = [
+            "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' width='64' height='64'><polygon points='32 2 12 36 26 36 20 62 52 22 36 22 42 2' fill='white' stroke='black' stroke-width='2' opacity='1'/></svg>",
+            "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' width='64' height='64'><polygon points='32 2 12 36 26 36 20 62 52 22 36 22 42 2' fill='white' stroke='black' stroke-width='2' opacity='0.3'/></svg>"
+        ];
+
+        let currentFavicon = 0;
+        setInterval(() => {
+            currentFavicon = (currentFavicon + 1) % favicons.length;
+            favicon.setAttribute('href', favicons[currentFavicon]);
+        }, 100);
+    }
+
+    document.addEventListener("DOMContentLoaded", addFlickerToFavicon);
+</script>
+
     <div class="wrapper">
         <h1>enmo.ai</h1>
         <h4>Energy Movement</h4>
@@ -93,14 +124,14 @@
             Summer Intern, Marc Müller, <a href="mailto:marc@enmo.ai"> marc@enmo.ai </a>
           </p>
         <br />
-        <h4>Partners:</h4>
+        <h4>Strategic Partners:</h4>
         <p>
           Berggård Amundsen & Co, <a href="https://baelgros.no" target="_blank">
             baelgros.no
           </a>
         </p>
         <br />
-        <h4>Mentors:</h4>
+        <h4>Research Partners:</h4>
         <p>
           Sebastien Gros, Head of Engineering Cybernetics, <a
             href="https://www.ntnu.edu/employees/sebastien.gros"
@@ -109,6 +140,8 @@
             NTNU
           </a>
         </p>
+        <br />
+        <h4>Mentors:</h4>
         <p>
           Karen Lindberg, Adjunct Associate Professor, <a
             href="https://www.ntnu.no/ansatte/karen.lindberg"
